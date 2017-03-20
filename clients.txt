@@ -1,0 +1,3 @@
+mail@example.com:Андрей Иванович:1500
+mail@example.com:Ирина Андреевна:1000
+

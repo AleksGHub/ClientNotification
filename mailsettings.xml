@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Mail configuration -->
+<mail>
+  <userSmtp>пользователь</userSmtp>
+  <passwordSmtp>пароль</passwordSmtp>
+  <hostSmtp>сервер почты</hostSmtp>
+  <portSmtp>25</portSmtp>
+  <SSLSmtp>false</SSLSmtp>
+  <fromMail>почта отправителя</fromMail>
+  <toMail>почта отправителя(не используется)</toMail>
+
+<messageTheme>Уведомление о необходимости оплаты счёта</messageTheme>
+
+<messageHelloBody>
+   Здравствуйте, </messageHelloBody>
+
+<messageBody2>
+   Компания "Экзампель" уведомляет вас о наличии задолженности в размере
+   </messageBody2>
+<messageBody3> рублей.
+
+   Пожалуйста, свяжитесь с вашим менеджером или вы можете ответить на данное
+   письмо и оно будет передано вашему контактному лицу.
+</messageBody3>
+<messageContacts>
+--------------------
+С уважением, Феофан Третий
+менеджер по работе с клиентами
+тел. 555-55-55
+company@example.com
+http://example.com
+</messageContacts>
+</mail>
